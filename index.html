@@ -1,38 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>DS Audio Player</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- required links -->
-    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <link href="jason.css" rel="stylesheet"/>
-
-
-</head>
-<body>
-
-<div class="shiPlayer" id="radio1" data-tag=""></div>
-<!--
-<div class="shiPlayer" id="radio2" data-tag=""></div>
--->
-
-<script src="jason.js"></script>
-<script>
-    $("#radio1").shiPlayer({
-        type: "SHOUTCAST",
-        //URL: "http://188.40.66.244:7056/",
-		URL: "http://188.40.66.244:7056/",
-        radio_logo: "img/xat.png",
-    });
-    $("#radio2").shiPlayer({
-        type: "icecast",
-        URL: "http://relay-chi.gameowls.com:8000",
-        mount_point: "chiptune.mp3",
-        cors_proxy: "https://cors-anywhere.herokuapp.com/"
-    });
-
-</script>
-</body>
-</html>
+<div class="jd-container-fluid">
+        <div class="jd-load-xatspace">
+            <div class="jd-letter">
+                <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="100%" height="100%" viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+                <defs>
+                    <linearGradient id="wave">
+                        <stop offset="0%" stop-color="#3A2DB4" />
+                        <stop offset="25%" stop-color="#62FFB1" />
+                        <stop offset="50%" stop-color="#FB7272" />
+                        <stop offset="75%" stop-color="#FD47E3" />
+                        <stop offset="100%" stop-color="#8c1bf6" />
+                    </linearGradient>
+                </defs>
+                <path class="draw" d="
+                    M631,327.5c0,0-108,28-120.5,113s89,90,155.5,57s100-74,73.5-87s-52.5,55.5-4.5,60s130-41.5,136-111s-104.5-25-135-10.5
+                    S534.5,473.5,536,595s154,53,200-12.5s-15-96-64.5-55s-5,100.5,134,23S1014,411.5,1006,380s-46.5,1.5-102,54S729,647,721.5,655.5
+                    s45-49,81-83s95.5-53,72.5-7s-86.5,110-18,85s62.5-31.5,79.5-38s87.5-30,82-69s-71.5,8-92.5,54.5s-3.5,82.5,55.5,51
+                    S1085,551,1091,544.5s22-25.5,11-32s-18,35.5,4.5,35.5s32.5-4,32.5-4s-62,64-73,83s-20.5,62,39,14.5s97.5-95,97.5-95
+                    s22-24.5,13-31.5s-19.5,26,1.5,35.5s32-6.5,32-6.5s-66,70-74.5,87s-16,49,47.5,7.5S1378,500,1334.5,563s-56,91.5-40,95.5
+                    s91.5-63,135-111.5c0,0-120.5,159-144.5,186s-85,97.5-105.5,64s48.5-91,109.5-110.5s141-40,182.5-112"/>
+                </svg>
+            </div>
+            <div class="jd-letter">
+                <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="100%" height="100%" viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+                <defs>
+                    <linearGradient id="wave">
+                        <stop offset="0%" stop-color="#3A2DB4" />
+                        <stop offset="25%" stop-color="#62FFB1" />
+                        <stop offset="50%" stop-color="#FB7272" />
+                        <stop offset="75%" stop-color="#FD47E3" />
+                        <stop offset="100%" stop-color="#8c1bf6" />
+                    </linearGradient>
+                </defs>
+                <path class="draw" d="
+                    M631,327.5c0,0-108,28-120.5,113s89,90,155.5,57s100-74,73.5-87s-52.5,55.5-4.5,60s130-41.5,136-111s-104.5-25-135-10.5
+                    S534.5,473.5,536,595s154,53,200-12.5s-15-96-64.5-55s-5,100.5,134,23S1014,411.5,1006,380s-46.5,1.5-102,54S729,647,721.5,655.5
+                    s45-49,81-83s95.5-53,72.5-7s-86.5,110-18,85s62.5-31.5,79.5-38s87.5-30,82-69s-71.5,8-92.5,54.5s-3.5,82.5,55.5,51
+                    S1085,551,1091,544.5s22-25.5,11-32s-18,35.5,4.5,35.5s32.5-4,32.5-4s-62,64-73,83s-20.5,62,39,14.5s97.5-95,97.5-95
+                    s22-24.5,13-31.5s-19.5,26,1.5,35.5s32-6.5,32-6.5s-66,70-74.5,87s-16,49,47.5,7.5S1378,500,1334.5,563s-56,91.5-40,95.5
+                    s91.5-63,135-111.5c0,0-120.5,159-144.5,186s-85,97.5-105.5,64s48.5-91,109.5-110.5s141-40,182.5-112"/>
+                </svg>
+            </div>
+        </div>
